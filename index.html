@@ -3,31 +3,177 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: system-ui, -apple-system, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #fff;
-    }
-
-    h1 {
-      font-size: 3rem;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    }
-  </style>
+  <meta name="description" content="Unforgettableco — photobooth hire for weddings, birthday parties, and retail activations.">
+  <title>Unforgettableco — Photobooth Hire</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Hello World</h1>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Unforgettable<span>co</span></a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="retail.html">Retail</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" class="nav-cta">Get a quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="hero-badge">Photobooth hire</span>
+        <h1>Events people remember, moments they keep</h1>
+        <p>We bring the fun to weddings, birthday parties, and retail activations — with instant prints, props, and a digital gallery your guests will love.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary">Get a quote</a>
+          <a href="packages.html" class="btn btn-secondary">View packages</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h2>Perfect for every occasion</h2>
+          <p>From intimate celebrations to high-footfall retail experiences, we tailor every hire to your event.</p>
+        </div>
+        <div class="event-grid">
+          <div class="event-card">
+            <div class="icon">💍</div>
+            <h3>Weddings</h3>
+            <p>Give your guests a playful break between speeches. Custom backdrops, elegant props, and keepsake prints they'll take home.</p>
+          </div>
+          <div class="event-card">
+            <div class="icon">🎂</div>
+            <h3>Birthday parties</h3>
+            <p>Milestone birthdays, kids' parties, or surprise celebrations — high-energy fun that gets everyone in the photo.</p>
+          </div>
+          <div class="event-card">
+            <div class="icon">🛍️</div>
+            <h3>Retail activations</h3>
+            <p>Drive footfall and dwell time in-store with branded overlays, shareable content, and an experience shoppers remember.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--color-surface); border-block: 1px solid var(--color-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2>What's included</h2>
+          <p>Every package comes with everything you need for a seamless, stress-free experience.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <img class="card-image" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=450&fit=crop" alt="Photobooth with props">
+            <div class="card-body">
+              <h3>Props &amp; backdrops</h3>
+              <p>A curated selection of props plus a backdrop to match your theme or brand.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="card-image" src="https://images.unsplash.com/photo-1527529482834-994687673a73?w=600&h=450&fit=crop" alt="Instant photo prints">
+            <div class="card-body">
+              <h3>Instant prints</h3>
+              <p>Guests walk away with physical keepsakes — unlimited prints during your hire window.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="card-image" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=450&fit=crop" alt="Event celebration">
+            <div class="card-body">
+              <h3>Digital gallery</h3>
+              <p>Every photo saved to a private online gallery, ready to share on the night and beyond.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h2>Recent events</h2>
+          <p>A glimpse of the moments we've helped create.</p>
+        </div>
+        <div class="gallery-grid">
+          <a href="gallery.html" class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=400&fit=crop" alt="Wedding celebration">
+            <span class="label">Wedding</span>
+          </a>
+          <a href="gallery.html" class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop" alt="Birthday party">
+            <span class="label">Birthday party</span>
+          </a>
+          <a href="gallery.html" class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=400&fit=crop" alt="Retail store">
+            <span class="label">Retail activation</span>
+          </a>
+          <a href="gallery.html" class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop" alt="Corporate event">
+            <span class="label">Corporate event</span>
+          </a>
+        </div>
+        <p style="text-align: center; margin-top: 2rem;">
+          <a href="gallery.html" class="btn btn-secondary">View full gallery</a>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="testimonial">
+          <blockquote>"The photobooth was the highlight of our wedding. Guests were queuing all night and we still look through the prints on our fridge."</blockquote>
+          <cite>— Sarah &amp; James, wedding clients</cite>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-band">
+          <h2>Ready to make your event unforgettable?</h2>
+          <p>Tell us your date, venue, and event type — we'll come back with a tailored quote within 24 hours.</p>
+          <a href="contact.html" class="btn btn-primary">Get a quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Unforgettable<span>co</span></div>
+          <p>Photobooth hire for weddings, parties, and retail experiences.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="packages.html">Packages</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="retail.html">Retail activations</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in touch</h4>
+          <a href="contact.html">Book now</a>
+          <a href="faq.html">FAQ</a>
+          <a href="mailto:hello@unforgettableco.com">hello@unforgettableco.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Unforgettableco. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
